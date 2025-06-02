@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://s-c-nordic-assignment.onrender.com',
+  baseURL: 'https://s-c-nordic-assignment.onrender.com/api',
 });
 
 // Add a request interceptor to add the token to every request
