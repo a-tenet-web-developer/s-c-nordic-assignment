@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/grid-manager';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://1anujchaturvediac:HFGWPvBnsBc53bVP@cluster0.ed7p9qo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 mongoose.connect(MONGO_URI)
   .then(() => {
     console.log('Connected to MongoDB');
